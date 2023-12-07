@@ -6,8 +6,8 @@ lista (minus;plus;|;X;O; ;enter;nic;nic;1;2;3;4;5;6;7;8;9;gameloop;nic;warunki)
 ++++++++++>
 >>
 
-+>+>+>+>+++>+>+>+>+
->++
++>+>+>+>+>+>+>+>+
+>+++++++++
 
 [<]++++++[<++++++++>-]<+
 
@@ -23,19 +23,26 @@ lista (minus;plus;|;X;O; ;enter;nic;nic;1;2;3;4;5;6;7;8;9;gameloop;nic;warunki)
 [>>
 
 
-,>++++++[<-------->-]
-<[>+>+<<-]
+>,>++++++[<-------->-]
 
-add to cell 1
-+
-[>-<-]
-+>[<-
-<<[<]>>+[>]>
->
-[-]]<[-
-<<[<]>+[>]>
-]
->[-]>[-]<<
+add to specified cell
++<<+++++++++
+[
+<<[<]>
+[-<+>]
+>[>]>>-[>-]
+>[-
+<<<<[<]<+>>[>]>>>]
+<<<[<]>>>+<<
+-]
+>[-]>[-]
+move all cells back
+<<+++++++++
+[
+<<[<]<[
+->+<
+]>>[>]>
+-]
 
 print map
 +++>++<
@@ -43,7 +50,7 @@ print map
 >>+++
 
 [-
-print nothing or O or X
+print space or O or X
 >+>+<<
 <<<<[<]
 +>-[
@@ -65,13 +72,13 @@ print | or enter
 ]
 <<
 ]
-print horizontal dividor
+print horizontal divider
 <[-
 <<<[<]<[<]<<<<<<<
 .>.<.>.<.[>]<.>>[>]>[>]
 ][<]>
 ]
-move all numbers back
+move all cells back
 <<+++++++++
 [
 <<[<]<[
@@ -80,4 +87,4 @@ move all numbers back
 -]
 
 
-,<<-]
+,[-]<<-]
