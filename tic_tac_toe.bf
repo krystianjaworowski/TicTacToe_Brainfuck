@@ -140,8 +140,8 @@ print who wins
 ]<<<
 ]>>[-]>[-]>[-]
 
->>>]
-<<<<
+>]
+<<<
 
 move all cells back
 <<+++++++++
